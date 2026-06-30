@@ -3,22 +3,33 @@ entries:
   first-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-06-10T14:14:36.559487425+03:00"
+    created: "2026-06-30T16:14:49.231186978+03:00"
     description: A Helm chart for Kubernetes
     digest: 4d7bd11adcb82309522ac59ef16f584578cc25c4b1457d4de8061280c1dfed86
     name: first-app
     type: application
     urls:
-    - https://puntiknikita1-netizen.github.io/helm-35-26/helm-releases/first-app-0.2.0.tgz
+    - helm-releases/first-app-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-06-10T14:14:36.55870073+03:00"
+    created: "2026-06-30T16:14:49.230535381+03:00"
     description: A Helm chart for Kubernetes
     digest: 04742f3f7750cd071903303f73537fa6fe2c9fcb24821403d967458ad463f872
     name: first-app
     type: application
     urls:
-    - https://puntiknikita1-netizen.github.io/helm-35-26/helm-releases/first-app-0.1.0.tgz
+    - helm-releases/first-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-10T14:14:36.557752131+03:00"
+  jenkins:
+  - apiVersion: v2
+    appVersion: 2.452.3
+    created: "2026-06-30T16:14:49.229991963+03:00"
+    description: Jenkins CI/CD server with Kubernetes cloud, NFS persistence, Istio
+      ingress
+    digest: d1ecc391139a50c2fe1611ddd387ad6e4b0f461549156331b3741529190a0796
+    name: jenkins
+    urls:
+    - jenkins-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-06-30T16:14:49.229326882+03:00"
